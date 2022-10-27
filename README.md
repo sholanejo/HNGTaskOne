@@ -27,3 +27,5 @@ The project opens up the swagger documentation and you can see the swagger endpo
 Send a request to this endpoint and a json of the following format is returned{ "slackUsername": String, "backend": Boolean, "age": Integer, "bio": String }
 
 Alternatively, this can be run on postman. Import the postman collection using this url https://www.getpostman.com/collections/af2dbb26d2d8c575cbb1
+
+This project is hosted on Heroku and can be accessed using this URL https://hng-first-task-shola-nejo.herokuapp.com/api/hngtask
