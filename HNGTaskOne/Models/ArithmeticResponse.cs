@@ -6,10 +6,10 @@ namespace HNGTaskOne.Models
     {
         public ArithmeticResponse()
         {
-            SlackUserName = "sholanejo";
+            slackUsername = "sholanejo";
         }
 
-        public string SlackUserName { get; set; }
+        public string slackUsername { get; set; }
         public string operation_type { get; set; }
         public int Result { get; set; }
     }
