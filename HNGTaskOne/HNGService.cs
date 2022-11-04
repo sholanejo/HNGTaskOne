@@ -19,7 +19,7 @@ namespace HNGTaskOne
             var arithemeticResponse = new ArithmeticResponse();
 
             int result = 0;
-            var operationType = arithmeticDTO.Operation_Type.ToLower();
+            var operationType = arithmeticDTO.operation_type.ToLower();
 
             if (!opttype.Contains(operationType))
             {
@@ -46,7 +46,7 @@ namespace HNGTaskOne
             }
 
             arithemeticResponse.Result = result;
-            arithemeticResponse.operation_type = arithmeticDTO.Operation_Type;
+            arithemeticResponse.operation_type = arithmeticDTO.operation_type;
 
             return arithemeticResponse;
         }

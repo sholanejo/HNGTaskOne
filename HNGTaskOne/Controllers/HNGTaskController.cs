@@ -14,7 +14,7 @@ namespace HNGTaskOne.Controllers
             return Ok(result);
         }
 
-        [HttpPost]
+        [HttpPost("calc")]
         public IActionResult Post(ArithmeticDTO arithmeticDTO)
         {
             var result = HNGService.PostService(arithmeticDTO);
