@@ -24,7 +24,7 @@ namespace HNGTaskOne
             if (!opttype.Contains(operationType))
             {
                 arithemeticResponse.Result = result;
-                arithemeticResponse.OperationType = "Invalid operation type! Operation can only be addition, multiplication, or subtraction.";
+                arithemeticResponse.operation_type = "Invalid operation type! Operation can only be addition, multiplication, or subtraction.";
 
                 return arithemeticResponse;
             }
@@ -46,7 +46,7 @@ namespace HNGTaskOne
             }
 
             arithemeticResponse.Result = result;
-            arithemeticResponse.OperationType = arithmeticDTO.Operation_Type;
+            arithemeticResponse.operation_type = arithmeticDTO.Operation_Type;
 
             return arithemeticResponse;
         }

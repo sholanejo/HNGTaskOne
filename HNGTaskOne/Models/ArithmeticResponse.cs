@@ -10,7 +10,7 @@ namespace HNGTaskOne.Models
         }
 
         public string SlackUserName { get; set; }
-        public string OperationType { get; set; }
+        public string operation_type { get; set; }
         public int Result { get; set; }
     }
 }
